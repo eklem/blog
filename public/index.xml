@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Thoughts, ideas and work - Technology, UX and DIY</title>
+    <link>https://blog.klemespen.com/</link>
+    <description>Recent content on Thoughts, ideas and work - Technology, UX and DIY</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://blog.klemespen.com/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
