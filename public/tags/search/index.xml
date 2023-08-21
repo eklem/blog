@@ -16,5 +16,15 @@
       <description>Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully.</description>
     </item>
     
+    <item>
+      <title>Idea: Your life, searchable through Norch — NOde seaRCH</title>
+      <link>https://eklem.github.io/blog/posts/your-life-searchable/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://eklem.github.io/blog/posts/your-life-searchable/</guid>
+      <description>What if you could index your whole life and make this lifeindex available through search? What would that look like, and how could it help you? Refinding information is obviously one of the use case for this type of search. I’m guessing there’s a lot more, and I’m curious to figure them out.
+Actions and reactions instead of web pages I had the lifeindex idea for a little while now. Originally the idea was to index everything I browsed.</description>
+    </item>
+    
   </channel>
 </rss>

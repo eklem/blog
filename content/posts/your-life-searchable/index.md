@@ -2,6 +2,8 @@
 title: "Idea: Your life, searchable through Norch — NOde seaRCH"
 date: "2014-11-25T00:00:00+02:00"
 draft: "false"
+categories: [development]
+tags: [search, personal, content, ifttt, norch]
 cover:
   image: "ifttt-triggers.png"
   alt: "IFTTT recipes storing data from Youtube, Instagram, Twitter and GitHub to a Google Drive Spreadsheet."
