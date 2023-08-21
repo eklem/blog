@@ -46,4 +46,4 @@ _Unfiltered search showing available filters for search query_
 ![Search result filtered on facet](./norch-02.png)
 _Search result filtered on facet_
 
-Last time, it was only an idea. Now search and facets are working nicely. More to come =)
+[Last time, it was only an idea](blog/posts/your-life-searchable/#issues-discovered-so-far). Now search and facets are working nicely. More to come =)
