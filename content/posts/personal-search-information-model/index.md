@@ -11,10 +11,7 @@ cover:
 
 Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully. The search information model will be the basis of the user experience, web design and front end code. A good reason a search solution has to revolve around the user, is that a user types in his/her words. If you ever see a search log, you’ll notice you’re looking at a users intention.
 
-![Here’s the search information model so far. One example where the search information model doesn’t match the information architecthure is the user category. I don’t have any documents matching users, but I’ll agregate and consolidate so it will be one in the search solution.](./personal-search-information-model.png)
-
-
-Here’s the search information model so far. One example where the search information model doesn’t match the information architecthure is the user category. I don’t have any documents matching users, but I’ll agregate and consolidate so it will be one in the search solution. A user will then possibly consist of the following elements:
+Above is the search information model so far. One example where the search information model doesn’t match the information architecthure is the user category. I don’t have any documents matching users, but I’ll agregate and consolidate so it will be one in the search solution. A user will then possibly consist of the following elements:
 
 * Name
 * Email address
