@@ -17,5 +17,14 @@
 Visit the Hugo website!</description>
     </item>
     
+    <item>
+      <title>Personal search information model</title>
+      <link>https://eklem.github.io/blog/posts/personal-search-information-model/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://eklem.github.io/blog/posts/personal-search-information-model/</guid>
+      <description>Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully.</description>
+    </item>
+    
   </channel>
 </rss>

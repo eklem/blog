@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Personal search information model | Thoughts, ideas and work - Technology, UX and DIY</title>
+<meta name="keywords" content="">
+<meta name="description" content="Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully.">
+<meta name="author" content="">
+<link rel="canonical" href="https://eklem.github.io/blog/posts/personal-search-information-model/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/blog/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://eklem.github.io/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://eklem.github.io/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://eklem.github.io/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://eklem.github.io/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://eklem.github.io/blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Personal search information model" />
+<meta property="og:description" content="Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://eklem.github.io/blog/posts/personal-search-information-model/" />
+<meta property="og:image" content="https://eklem.github.io/blog/posts/personal-search-information-model/personal-search-information-model.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2015-03-10T00:00:00+02:00" />
+<meta property="article:modified_time" content="2015-03-10T00:00:00+02:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://eklem.github.io/blog/posts/personal-search-information-model/personal-search-information-model.png" />
+<meta name="twitter:title" content="Personal search information model"/>
+<meta name="twitter:description" content="Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://eklem.github.io/blog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Personal search information model",
+      "item": "https://eklem.github.io/blog/posts/personal-search-information-model/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Personal search information model",
+  "name": "Personal search information model",
+  "description": "Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully. The search information model will be the basis of the user experience, web design and front end code. A good reason a search solution has to revolve around the user, is that a user types in his/her words. If you ever see a search log, you’ll notice you’re looking at a users intention.\nHere’s the search information model so far. One example where the search information model doesn’t match the information architecthure is the user category. I don’t have any documents matching users, but I’ll agregate and consolidate so it will be one in the search solution. A user will then possibly consist of the following elements:\nName Email address Phone number gravatar photo/icon User names/IDs for: Twitter Instagram Flickr GitHub This will, in adition to a regular search, give me a per user search. I can search, find a user, click on that user and instead of going to a document that doesn’t exist, I can get a special search page for this person. I’ll be able to do something similar for “Events”, where I can show all results near (in time) a calendar or position event. All data is gathered by IFTTT IF-recipes and stored in spreadsheets in Google Drive. At the beginning of the project, I made a lot if IFTTT-recipes. Just by looking at the spreadsheets it was easy to figure out which sources were useful and which were not. A task manager called Remember the Milk seemd like a nice source to index, but looking at the data gathered, I understood it would only add noice. Nothing there triggered any re-finding nerve, which this search is all about: Indexing stuff, or actions/reactions, that I want to find back to and revisit at a later time. SMS’es also looked like a nice source for indexing, but when looking at the SMS’es stored, it was just to creepy to add to a search index. Also some sources are not that good because of limitations in IFTTT. One example is Facebook status message. It doesn’t have an item ID. That means I can’t link back to the actual message. But Facebook links and replies are okay.\nDocument preview and search engines Ok search solutions have document previews. You need a preview since a lot of the documents are not web formats. These previews are either images of a front page, or an HTML template faking the document layout. Either way, it’s not very interactive. It’s a display of what you might see if you take the time to click on the document and wait for it to open. Not so with Personal Search. The idea is to have a regular search result column in center, and actual content to the left. If I click/hover on an interesting tweet search result, I’ll get the full discussion thread to the left with all the interaction of Twitter to continue the discussion. All this with a message ID and an developer API.\nWhat’s now and what’s next? Automated indexing is working, and so is searching. I get a lot of duplicates, so will switch from using Norch-indexer to Search-index’ si.add function to get a more fine graind control when indexing documents. Anyhow, that’s fairly straight forward.\nSearch is working. Not looking pretty, and missing a lot of functional stuff. But working facets and all, and that’s great! It’s running of a Raspberry Pi 2 with Raspbian (Debian Wheezy) and it’s lightning fast. The first Raspberry Pi B was fast enough to handle search queries and deliver search results, but it’s a little underpowered for the indexing task. That leaves me with what’s next. First off, I’m going to make some quick interaction designs and create a static HTML prototype. The prototype will be a fork of the Norch-bootstrap repository and become Personal Search to quickly start creating a better frontend. In between there will be more code added to the document processing tool: IFTT-Norch-tools.\nLast time, it was only an idea. Now search and facets are working nicely. More to come =)\n",
+  "wordCount" : "748",
+  "inLanguage": "en",
+  "image":"https://eklem.github.io/blog/posts/personal-search-information-model/personal-search-information-model.png","datePublished": "2015-03-10T00:00:00+02:00",
+  "dateModified": "2015-03-10T00:00:00+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://eklem.github.io/blog/posts/personal-search-information-model/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Thoughts, ideas and work - Technology, UX and DIY",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://eklem.github.io/blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://eklem.github.io/blog/" accesskey="h" title="Thoughts, ideas and work - Technology, UX and DIY (Alt + H)">Thoughts, ideas and work - Technology, UX and DIY</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Personal search information model
+    </h1>
+    <div class="post-meta"><span title='2015-03-10 00:00:00 +0200 +0200'>March 10, 2015</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://eklem.github.io/blog/posts/personal-search-information-model/personal-search-information-model_hu6a6e3d4fcb147fe7cc092b8f83eee3fc_56894_360x0_resize_box_3.png 360w ,https://eklem.github.io/blog/posts/personal-search-information-model/personal-search-information-model_hu6a6e3d4fcb147fe7cc092b8f83eee3fc_56894_480x0_resize_box_3.png 480w ,https://eklem.github.io/blog/posts/personal-search-information-model/personal-search-information-model_hu6a6e3d4fcb147fe7cc092b8f83eee3fc_56894_720x0_resize_box_3.png 720w ,https://eklem.github.io/blog/posts/personal-search-information-model/personal-search-information-model.png 1000w" 
+            sizes="(min-width: 768px) 720px, 100vw" src="https://eklem.github.io/blog/posts/personal-search-information-model/personal-search-information-model.png" alt="Personal search information model so far." 
+            width="1000" height="708">
+        <p>Here’s the search information model so far. One example where the search information model doesn’t match the information architecthure is the user category. I don’t have any documents matching users, but I’ll agregate and consolidate so it will be one in the search solution.</p>
+</figure>
+  <div class="post-content"><p>Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully. The search information model will be the basis of the user experience, web design and front end code. A good reason a search solution has to revolve around the user, is that a user types in his/her words. If you ever see a search log, you’ll notice you’re looking at a users intention.</p>
+<p><img loading="lazy" src="./personal-search-information-model.png" alt="Here’s the search information model so far. One example where the search information model doesn’t match the information architecthure is the user category. I don’t have any documents matching users, but I’ll agregate and consolidate so it will be one in the search solution."  />
+</p>
+<p>Here’s the search information model so far. One example where the search information model doesn’t match the information architecthure is the user category. I don’t have any documents matching users, but I’ll agregate and consolidate so it will be one in the search solution. A user will then possibly consist of the following elements:</p>
+<ul>
+<li>Name</li>
+<li>Email address</li>
+<li>Phone number</li>
+<li>gravatar photo/icon</li>
+<li>User names/IDs for:</li>
+<li>Twitter</li>
+<li>Instagram</li>
+<li>Flickr</li>
+<li>GitHub</li>
+</ul>
+<p>This will, in adition to a regular search, give me a per user search. I can search, find a user, click on that user and instead of going to a document that doesn’t exist, I can get a special search page for this person. I’ll be able to do something similar for “Events”, where I can show all results near (in time) a calendar or position event. All data is gathered by IFTTT IF-recipes and stored in spreadsheets in Google Drive. At the beginning of the project, I made a lot if IFTTT-recipes. Just by looking at the spreadsheets it was easy to figure out which sources were useful and which were not. A task manager called Remember the Milk seemd like a nice source to index, but looking at the data gathered, I understood it would only add noice. Nothing there triggered any re-finding nerve, which this search is all about: Indexing stuff, or actions/reactions, that I want to find back to and revisit at a later time. SMS’es also looked like a nice source for indexing, but when looking at the SMS’es stored, it was just to creepy to add to a search index. Also some sources are not that good because of limitations in IFTTT. One example is Facebook status message. It doesn’t have an item ID. That means I can’t link back to the actual message. But Facebook links and replies are okay.</p>
+<h2 id="document-preview-and-search-engines">Document preview and search engines<a hidden class="anchor" aria-hidden="true" href="#document-preview-and-search-engines">#</a></h2>
+<p>Ok search solutions have document previews. You need a preview since a lot of the documents are not web formats. These previews are either images of a front page, or an HTML template faking the document layout. Either way, it’s not very interactive. It’s a display of what you might see if you take the time to click on the document and wait for it to open. Not so with Personal Search. The idea is to have a regular search result column in center, and actual content to the left. If I click/hover on an interesting tweet search result, I’ll get the full discussion thread to the left with all the interaction of Twitter to continue the discussion. All this with a message ID and an developer API.</p>
+<h2 id="whats-now-and-whats-next">What’s now and what’s next?<a hidden class="anchor" aria-hidden="true" href="#whats-now-and-whats-next">#</a></h2>
+<p>Automated indexing is working, and so is searching. I get a lot of duplicates, so will switch from using Norch-indexer to Search-index’ si.add function to get a more fine graind control when indexing documents. Anyhow, that’s fairly straight forward.</p>
+<p>Search is working. Not looking pretty, and missing a lot of functional stuff. But working facets and all, and that’s great! It’s running of a Raspberry Pi 2 with Raspbian (Debian Wheezy) and it’s lightning fast. The first Raspberry Pi B was fast enough to handle search queries and deliver search results, but it’s a little underpowered for the indexing task. That leaves me with what’s next. First off, I’m going to make some quick interaction designs and create a static HTML prototype. The prototype will be a fork of the Norch-bootstrap repository and become Personal Search to quickly start creating a better frontend. In between there will be more code added to the document processing tool: IFTT-Norch-tools.</p>
+<p>Last time, it was only an idea. Now search and facets are working nicely. More to come =)</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://eklem.github.io/blog/">Thoughts, ideas and work - Technology, UX and DIY</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
