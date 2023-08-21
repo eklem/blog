@@ -33,12 +33,17 @@ Ok search solutions have document previews. You need a preview since a lot of th
 ## What’s now and what’s next?
 
 ![A Raspberry Pi running Norch](./raspberry-pis.jpeg)
+_A Raspberry Pi running Norch_
 
 Automated indexing is working, and so is searching. I get a lot of duplicates, so will switch from using Norch-indexer to Search-index’ si.add function to get a more fine graind control when indexing documents. Anyhow, that’s fairly straight forward.
 
 
 Search is working. Not looking pretty, and missing a lot of functional stuff. But working facets and all, and that’s great! It’s running of a Raspberry Pi 2 with Raspbian (Debian Wheezy) and it’s lightning fast. The first Raspberry Pi B was fast enough to handle search queries and deliver search results, but it’s a little underpowered for the indexing task. That leaves me with what’s next. First off, I’m going to make some quick interaction designs and create a static HTML prototype. The prototype will be a fork of the Norch-bootstrap repository and become Personal Search to quickly start creating a better frontend. In between there will be more code added to the document processing tool: IFTT-Norch-tools.
 
+![Unfiltered search showing available filters for search query](./norch-01.png)
+_Unfiltered search showing available filters for search query_
 
+![Search result filtered on facet](./norch-02.png)
+_Search result filtered on facet_
 
 Last time, it was only an idea. Now search and facets are working nicely. More to come =)
