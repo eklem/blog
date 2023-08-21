@@ -6,17 +6,7 @@
     <description>Recent content on Thoughts, ideas and work - Technology, UX and DIY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Aug 2023 09:15:26 +0200</lastBuildDate><atom:link href="https://eklem.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://eklem.github.io/blog/posts/my-first-post/</link>
-      <pubDate>Mon, 21 Aug 2023 09:15:26 +0200</pubDate>
-      
-      <guid>https://eklem.github.io/blog/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
-    </item>
-    
+    <lastBuildDate>Tue, 10 Mar 2015 00:00:00 +0200</lastBuildDate><atom:link href="https://eklem.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal search information model</title>
       <link>https://eklem.github.io/blog/posts/personal-search-information-model/</link>
