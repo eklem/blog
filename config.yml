@@ -7,7 +7,7 @@ params:
   ShowShareButtons: true
   ShareButtons: ["linkedin", "reddit"]
   homeInfoParams:
-    Title: "eklem"
+    Title: "Espen Klem"
     Content: "Doing things, telling people"
   socialIcons: # optional
       - name: "github"
