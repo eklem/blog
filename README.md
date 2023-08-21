@@ -1,4 +1,11 @@
 # blog
-Thoughts, ideas and work - Technology, UX and DIY
+Thoughts, ideas and code - Espen Klem's personal blog. 
 
-Setup some static site generator to have a forever-home for my blogposts, posted on different sites.
+For pushing a new blogpost:
+
+```console
+hugo
+git add -A
+git commit
+git push
+```
