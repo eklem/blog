@@ -11,6 +11,7 @@ cover:
 
 Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully. The search information model will be the basis of the user experience, web design and front end code. A good reason a search solution has to revolve around the user, is that a user types in his/her words. If you ever see a search log, you’ll notice you’re looking at a users intention.
 
+
 Above is the search information model so far. One example where the search information model doesn’t match the information architecthure is the user category. I don’t have any documents matching users, but I’ll agregate and consolidate so it will be one in the search solution. A user will then possibly consist of the following elements:
 
 * Name
@@ -30,6 +31,8 @@ This will, in adition to a regular search, give me a per user search. I can sear
 Ok search solutions have document previews. You need a preview since a lot of the documents are not web formats. These previews are either images of a front page, or an HTML template faking the document layout. Either way, it’s not very interactive. It’s a display of what you might see if you take the time to click on the document and wait for it to open. Not so with Personal Search. The idea is to have a regular search result column in center, and actual content to the left. If I click/hover on an interesting tweet search result, I’ll get the full discussion thread to the left with all the interaction of Twitter to continue the discussion. All this with a message ID and an developer API.
 
 ## What’s now and what’s next?
+
+![A Raspberry Pi running Norch](./raspberry-pis.jpeg)
 
 Automated indexing is working, and so is searching. I get a lot of duplicates, so will switch from using Norch-indexer to Search-index’ si.add function to get a more fine graind control when indexing documents. Anyhow, that’s fairly straight forward.
 
