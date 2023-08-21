@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://eklem.github.io/blog/categories/</loc>
+    <lastmod>2015-03-10T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://eklem.github.io/blog/tags/content/</loc>
+    <lastmod>2015-03-10T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://eklem.github.io/blog/categories/development/</loc>
+    <lastmod>2015-03-10T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://eklem.github.io/blog/tags/ifttt/</loc>
+    <lastmod>2015-03-10T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://eklem.github.io/blog/tags/norch/</loc>
+    <lastmod>2015-03-10T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://eklem.github.io/blog/tags/personal/</loc>
+    <lastmod>2015-03-10T00:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://eklem.github.io/blog/posts/personal-search-information-model/</loc>
     <lastmod>2015-03-10T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://eklem.github.io/blog/posts/</loc>
+    <lastmod>2015-03-10T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://eklem.github.io/blog/tags/search/</loc>
+    <lastmod>2015-03-10T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://eklem.github.io/blog/tags/</loc>
     <lastmod>2015-03-10T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://eklem.github.io/blog/</loc>
@@ -13,9 +37,5 @@
   </url><url>
     <loc>https://eklem.github.io/blog/posts/your-life-searchable/</loc>
     <lastmod>2014-11-25T00:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://eklem.github.io/blog/categories/</loc>
-  </url><url>
-    <loc>https://eklem.github.io/blog/tags/</loc>
   </url>
 </urlset>

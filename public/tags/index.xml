@@ -1,10 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Thoughts, ideas and work - Technology, UX and DIY</title>
+    <title>Tags on Thoughts, ideas and code</title>
     <link>https://eklem.github.io/blog/tags/</link>
-    <description>Recent content in Tags on Thoughts, ideas and work - Technology, UX and DIY</description>
+    <description>Recent content in Tags on Thoughts, ideas and code</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://eklem.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2015 00:00:00 +0200</lastBuildDate><atom:link href="https://eklem.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>content</title>
+      <link>https://eklem.github.io/blog/tags/content/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://eklem.github.io/blog/tags/content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ifttt</title>
+      <link>https://eklem.github.io/blog/tags/ifttt/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://eklem.github.io/blog/tags/ifttt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>norch</title>
+      <link>https://eklem.github.io/blog/tags/norch/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://eklem.github.io/blog/tags/norch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://eklem.github.io/blog/tags/personal/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://eklem.github.io/blog/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>search</title>
+      <link>https://eklem.github.io/blog/tags/search/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://eklem.github.io/blog/tags/search/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,3 +1,28 @@
 baseURL: "https://eklem.github.io/blog/"
-title: "Thoughts, ideas and work - Technology, UX and DIY"
+title: "Thoughts, ideas and code"
 theme: "PaperMod"
+params:
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "reddit"]
+  homeInfoParams:
+    Title: "eklem"
+    Content: "Doing things, telling people"
+  socialIcons: # optional
+      - name: "github"
+        url: "https://github.com/eklem"
+      - name: "linkedin"
+        url: "https://www.linkedin.com/in/espen-klem/"
+      - name: "flickr"
+        url: "https://flickr.com/eklem"
+  ShowReadingTime: true
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+rss: true
+taxonomies:
+  category: "categories"
+  tag: "tags"

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>content on Thoughts, ideas and code</title>
+    <link>https://eklem.github.io/blog/tags/content/</link>
+    <description>Recent content in content on Thoughts, ideas and code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2015 00:00:00 +0200</lastBuildDate><atom:link href="https://eklem.github.io/blog/tags/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal search information model</title>
+      <link>https://eklem.github.io/blog/posts/personal-search-information-model/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://eklem.github.io/blog/posts/personal-search-information-model/</guid>
+      <description>Things are actually going according to plan. Automatic indexing is up and running, and search is working, so now it’s time for a search information model. A search information model is kind of the information architecture of a search solution. The difference is that a good search engine revolves around the user more than a web page structure. You mold your information architecture to best fit your user, even if this doesn’t match the underlying architecture fully.</description>
+    </item>
+    
+  </channel>
+</rss>

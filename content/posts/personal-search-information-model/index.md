@@ -2,6 +2,8 @@
 title: "Personal search information model"
 date: "2015-03-10T00:00:00+02:00"
 draft: "false"
+categories: [development]
+tags: [search, personal, content, ifttt, norch]
 cover:
   image: "personal-search-information-model.png"
   alt: "Personal search information model so far."
