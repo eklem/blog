@@ -5,7 +5,7 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   ShowShareButtons: true
-  ShareButtons: ["linkedin", "reddit"]
+  ShareButtons: ["", "linkedin", "reddit"]
   homeInfoParams:
     Title: "Espen Klem"
     Content: "Doing things, telling people!"

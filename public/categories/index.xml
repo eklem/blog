@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Thoughts, ideas and code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2015 00:00:00 +0200</lastBuildDate><atom:link href="https://eklem.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0200</lastBuildDate><atom:link href="https://eklem.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>drawing</title>
+      <link>https://eklem.github.io/blog/categories/drawing/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://eklem.github.io/blog/categories/drawing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>development</title>
       <link>https://eklem.github.io/blog/categories/development/</link>

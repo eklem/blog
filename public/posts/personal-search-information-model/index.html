@@ -202,15 +202,15 @@
 <h2 id="document-preview-and-search-engines">Document preview and search engines<a hidden class="anchor" aria-hidden="true" href="#document-preview-and-search-engines">#</a></h2>
 <p>Ok search solutions have document previews. You need a preview since a lot of the documents are not web formats. These previews are either images of a front page, or an HTML template faking the document layout. Either way, it’s not very interactive. It’s a display of what you might see if you take the time to click on the document and wait for it to open. Not so with Personal Search. The idea is to have a regular search result column in center, and actual content to the left. If I click/hover on an interesting tweet search result, I’ll get the full discussion thread to the left with all the interaction of Twitter to continue the discussion. All this with a message ID and an developer API.</p>
 <h2 id="whats-now-and-whats-next">What’s now and what’s next?<a hidden class="anchor" aria-hidden="true" href="#whats-now-and-whats-next">#</a></h2>
-<p><img loading="lazy" src="./raspberry-pis.jpeg" alt="A Raspberry Pi running Norch"  />
+<p><img loading="lazy" src="raspberry-pis.jpeg" alt="A Raspberry Pi running Norch"  />
 
 <em>A Raspberry Pi running Norch</em></p>
 <p>Automated indexing is working, and so is searching. I get a lot of duplicates, so will switch from using Norch-indexer to Search-index’ si.add function to get a more fine graind control when indexing documents. Anyhow, that’s fairly straight forward.</p>
 <p>Search is working. Not looking pretty, and missing a lot of functional stuff. But working facets and all, and that’s great! It’s running of a Raspberry Pi 2 with Raspbian (Debian Wheezy) and it’s lightning fast. The first Raspberry Pi B was fast enough to handle search queries and deliver search results, but it’s a little underpowered for the indexing task. That leaves me with what’s next. First off, I’m going to make some quick interaction designs and create a static HTML prototype. The prototype will be a fork of the Norch-bootstrap repository and become Personal Search to quickly start creating a better frontend. In between there will be more code added to the document processing tool: IFTT-Norch-tools.</p>
-<p><img loading="lazy" src="./norch-01.png" alt="Unfiltered search showing available filters for search query"  />
+<p><img loading="lazy" src="norch-01.png" alt="Unfiltered search showing available filters for search query"  />
 
 <em>Unfiltered search showing available filters for search query</em></p>
-<p><img loading="lazy" src="./norch-02.png" alt="Search result filtered on facet"  />
+<p><img loading="lazy" src="norch-02.png" alt="Search result filtered on facet"  />
 
 <em>Search result filtered on facet</em></p>
 <p><a href="../your-life-searchable/">Last time, it was only an idea</a>. Now search and facets are working nicely. More to come =)</p>
@@ -228,6 +228,11 @@
       <li><a href="https://eklem.github.io/blog/tags/norch/">norch</a></li>
     </ul>
 <nav class="paginav">
+  <a class="prev" href="https://eklem.github.io/blog/posts/human-beings-and-interaction/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Human beings and interaction — Get your people to interact</span>
+  </a>
   <a class="next" href="https://eklem.github.io/blog/posts/your-life-searchable/">
     <span class="title">Next »</span>
     <br>
