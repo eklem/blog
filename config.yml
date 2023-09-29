@@ -26,3 +26,4 @@ rss: true
 taxonomies:
   category: "categories"
   tag: "tags"
+enableRobotsTXT: true
