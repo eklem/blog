@@ -11,3 +11,5 @@ git add -A
 git commit
 git push
 ```
+
+Statistics through [Tinylytics](https://tinylytics.app/)
