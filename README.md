@@ -12,4 +12,4 @@ git commit
 git push
 ```
 
-Statistics through [Tinylytics](https://tinylytics.app/)
+Statistics through [Plausible.io](https://plausible.io/)
